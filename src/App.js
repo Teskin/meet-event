@@ -37,7 +37,7 @@ class App extends Component {
                         <Col className="side" xs></Col>
                         <Col xs>
                             <div className="space-50"></div>
-                            <button type="button" className="fade-in"> Compila il form</button>
+                            <button type="button" className="fade-in"> Compila il questionario</button>
                         </Col>
                         <Col className="side" xs></Col>
                     </Row>
