@@ -3,26 +3,27 @@ import {Row, Col} from 'react-flexbox-grid';
 import _ from "lodash";
 
 
-
-
-
 const Menu = ({elements}) => {
     const MenuElement = _.map(elements, function (element) {
             return (<li className="menu-element" key={element.id}>
-                {element.name}
+                <a href="#" id={element.id.toString()}>{element.name}</a>
             </li>);
         }
     );
 
-    return (<Row>
-        <Col xs></Col>
-        <Col xs>
-            <ul className="menu">
-                {MenuElement}
-            </ul>
-        </Col>
-        <Col xs></Col>
-    </Row>);
+    return (
+        <ul className="menu">
+            <Row>
+                <Col xs></Col>
+                <Col xs>
+                    {MenuElement}
+
+                </Col>
+                <Col xs></Col>
+            </Row>
+        </ul>
+    )
+        ;
 }
 
 export default Menu;

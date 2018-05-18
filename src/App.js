@@ -14,6 +14,10 @@ const menuArray = [{
     {
         id: 3,
         name: "Contattaci"
+    },
+    {
+        id: 4,
+        name: "Dove trovarci"
     }];
 
 class App extends Component {
@@ -25,7 +29,7 @@ class App extends Component {
                         <div className="container">
 
                             <div className="App-title title-container">
-                                <h1>Meet<label>Event</label></h1>
+                                <h1>B<label>and</label></h1>
                             </div>
 
                         </div>
@@ -49,7 +53,7 @@ class App extends Component {
                     <Col className="side" xs></Col>
                     <Col xs>
                         <div className="space-50 fade-in"></div>
-                        <p>Meet<label>Event</label> è un'app che ti permette di organizzare incontri con persone
+                        <p><label><B></B>and</label> è un'app che ti permette di organizzare incontri con persone
                             interessate ai tuoi eventi preferiti.</p>
                     </Col>
                     <Col className="side" xs></Col>
