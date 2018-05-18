@@ -53,7 +53,7 @@ class App extends Component {
                     <Col className="side" xs></Col>
                     <Col xs>
                         <div className="space-50 fade-in"></div>
-                        <p><label><B></B>and</label> è un'app che ti permette di organizzare incontri con persone
+                        <p><label>Band</label> è un'app che ti permette di organizzare incontri con persone
                             interessate ai tuoi eventi preferiti.</p>
                     </Col>
                     <Col className="side" xs></Col>
