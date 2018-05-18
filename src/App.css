@@ -75,13 +75,11 @@ label {
     text-align: center;
 }
 
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
 
 h1 {
     position: relative;
@@ -115,4 +113,21 @@ h1 {
         width: 100%;
     }
 
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    color: black;
+    border: 1px solid black;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.menu-element {
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+    text-align: center;
 }

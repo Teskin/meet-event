@@ -1,7 +1,20 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Grid, Row, Col} from 'react-flexbox-grid';
+import Menu from './components/menu';
 
+const menuArray = [{
+    id: 1,
+    name: "Chi siamo?"
+},
+    {
+        id: 2,
+        name: "La nostra idea"
+    },
+    {
+        id: 3,
+        name: "Contattaci"
+    }];
 
 class App extends Component {
     render() {
@@ -18,6 +31,7 @@ class App extends Component {
                         </div>
                     </Col>
                 </Row>
+                <Menu elements={menuArray}/>
                 <Row>
                     <Col className="side" xs></Col>
                     <Col xs>
