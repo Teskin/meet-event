@@ -29,7 +29,7 @@ class App extends Component {
                         <div className="container">
 
                             <div className="App-title title-container">
-                                <h1>B<label>and</label></h1>
+                                <h1>Lala<label>Band</label></h1>
                             </div>
 
                         </div>
@@ -53,8 +53,9 @@ class App extends Component {
                     <Col className="side" xs></Col>
                     <Col xs>
                         <div className="space-50 fade-in"></div>
-                        <p><label>Band</label> è un'app che ti permette di organizzare incontri con persone
-                            interessate ai tuoi eventi preferiti.</p>
+                        <p><label>Band</label> è il progetto che si propone di creare una rete di connessione tra chi ama la musica, o perché no, tra chi semplicemente cerca compagnia.
+L’applicazione permetterà a persone che condividono gli stessi interessi di mettersi in contatto, inoltre fornirà un accurato aggiornamento sui concerti in programmazione.
+</p>
                     </Col>
                     <Col className="side" xs></Col>
                 </Row>

@@ -11,7 +11,7 @@
 }
 
 .App-header {
-    background-color: black;
+    background-color: #0D2C54;
     height: 150px;
     padding: 20px;
     color: white;
@@ -28,10 +28,10 @@
 }
 
 label {
-    background: white;
+    background: #9FD356;
     font-size: 1.2em;
     font-weight: 300;
-    color: black;
+    color: white;
 }
 
 @keyframes App-logo-spin {
@@ -54,15 +54,15 @@ label {
     text-decoration: none;
     padding: 10px 15px 10px 15px;
     border: none;
-    color: #233332;
+    color: #F0E2A3;
     background-color: transparent;
-    border: 1px solid #233332;
+    border: 1px solid #F0E2A3;
 }
 
 .button:hover {
     color: white;
     transition: 0.2s;
-    background-color: #233332;
+    background-color: #F0E2A3;
 }
 
 .footer {
@@ -71,7 +71,7 @@ label {
     bottom: 0;
     width: 100%;
     font-weight: 300;
-    background-color: #000;
+    background-color: #0D2C54;
     color: white;
     text-align: center;
 }
@@ -119,7 +119,8 @@ h1 {
 .menu {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border-bottom: 1px solid #E2D58B;
+    box-shadow: 5px 1px 5px #E2D58B;
     list-style-type: none;
     text-decoration: none;
     overflow: hidden;
